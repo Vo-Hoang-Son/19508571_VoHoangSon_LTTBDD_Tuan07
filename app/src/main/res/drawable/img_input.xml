@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Vector -->
+    <View
+        android:id="@+id/img_input"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/vector"
+        />
+
+
+    <!-- drawable/vector.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="35dp"
+        android:height="35.49dp"
+        android:viewportWidth="35"
+        android:viewportHeight="35.49"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0 0H35V35.4922H0V0Z"
+                />
+
+            <path
+                android:pathData="M0 0V35.4922H35V0"
+                android:fillColor="#3968E2"
+                />
+
+        </group>
+
+    </vector>
+
+</selector>

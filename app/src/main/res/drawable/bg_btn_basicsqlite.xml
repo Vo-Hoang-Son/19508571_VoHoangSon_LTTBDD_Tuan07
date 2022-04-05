@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Rectangle 3 -->
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:background="#208CC9"
+        />
+
+
+    <!-- drawable/rectangle_3.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="90dp"
+        android:height="45dp"
+        android:viewportWidth="90"
+        android:viewportHeight="45"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M10 0H80C85.5228 0 90 4.47715 90 10V35C90 40.5228 85.5228 45 80 45H10C4.47715 45 0 40.5228 0 35V10C0 4.47715 4.47715 0 10 0Z"
+                />
+
+            <path
+                android:pathData="M0 0V45H90V0"
+                android:fillColor="#208CC9"
+                />
+
+        </group>
+
+    </vector>
+
+</selector>
